@@ -1,0 +1,42 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 16px;
+}
+
+button{
+  outline: none;
+  border: none;
+  border: 1px solid rgba(121, 255, 255) ;
+  color:  rgba(121, 255, 255) ;
+  font-weight: bold;
+  background-color: rgba(121, 255, 255, 0);
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin: 0px 0px 0px 8px;
+}
+
+button:hover{
+  background-color:rgba(121, 255, 255);
+  color:black;
+  cursor: pointer;
+}
+
+select{
+  outline: none;
+  border: none;
+  border: 1px solid rgba(121, 255, 255) ;
+  font-weight: bold;
+  background-color: rgba(121, 255, 255);
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin: 0px 0px 0px 8px;
+}
+
+select:hover{
+  background-color:rgba(121, 255, 255);
+  color:black;
+  cursor: pointer;
+}
